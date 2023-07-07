@@ -28,7 +28,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/mathjs/dist/math.js"
+              "node_modules/mathjs/lib/browser/math.js"
             ]
             
           },

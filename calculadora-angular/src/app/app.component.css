@@ -3,14 +3,15 @@
 .input-screen {
     background-color: rgb(221, 221, 221);
     font-size: 2vw;
+    max-width: 100% !important;
 }
 
 /* "container" */
 
 .calculator-area {
-    width: 70%;
+    width: 35%;
     height: 90%;
-    margin: 6%;
+    margin: 4vh;
     padding: 3%;
     background-color: #141414;
     border-radius: 15px;
@@ -49,9 +50,6 @@
             #e9780e 100%);
     background-size: 200% 100%;
     background-position: 100% 0;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    transition: all 1s;
     color: #000000 !important;
     border-color: rgb(110, 53, 0) !important;
 }
