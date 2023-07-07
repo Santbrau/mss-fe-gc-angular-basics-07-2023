@@ -1,0 +1,123 @@
+
+/* pantalla */
+.input-screen {
+    background-color: rgb(221, 221, 221);
+    font-size: 2vw;
+}
+
+/* "container" */
+
+.calculator-area {
+    width: 70%;
+    height: 90%;
+    margin: 6%;
+    padding: 3%;
+    background-color: #141414;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history-screen {
+    background-color: #c7c7c7;
+    font-size: 1.6vw;
+    max-width: 60%;
+}
+
+.row {
+    margin: 1%;
+    padding: 1%;
+}
+
+.btn {
+    margin: 1%;
+    font-size: xx-large;
+}
+
+.reset {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* botones numeros */
+
+.btn-outline-secondary {
+    background: linear-gradient(to right,
+            #ff9741 0%,
+            #ff9741 50%,
+            #e9780e 50%,
+            #e9780e 100%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    color: #000000 !important;
+    border-color: rgb(110, 53, 0) !important;
+}
+
+.btn-outline-secondary:hover {
+    background-position: 0 0;
+}
+
+.btn-outline-secondary:focus {
+    color: #000000 !important;
+}
+
+/* boton clear */
+
+.btn-outline-danger {
+    background: linear-gradient(to right,
+            #f87171 0%,
+            #f87171 50%,
+            #d40000 50%,
+            #da0000 100%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    color: #ffffff !important;
+    border-color: rgb(70, 0, 0) !important;
+}
+
+.btn-outline-danger:hover {
+    background-position: 0 0;
+}
+
+.btn-outline-danger:focus {
+    color: white;
+}
+
+/* boton igual */
+
+.btn-outline-success {
+background: linear-gradient(to right,
+#ffe657 0%,
+#ffe657 50%,
+#ffdc16 50%,
+#ffdc16 100%);
+background-size: 200% 100%;
+background-position: 100% 0;
+color: #053b03 !important;
+border-color: rgb(172, 132, 0) !important;
+}
+
+.btn-outline-success:hover {
+    background-position: 0 0;
+}
+
+/* boton operadores */
+
+.btn-outline-primary {
+    background: linear-gradient(to right,
+    #ff833b 0%,
+    #ff833b 50%,
+    #ff4800 50%,
+    #ff4800 100%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    color: #000000 !important;
+    border-color: rgb(126, 25, 0) !important;
+    }
+    
+    .btn-outline-primary:hover {
+        background-position: 0 0;
+    }
